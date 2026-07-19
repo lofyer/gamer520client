@@ -5,7 +5,7 @@
 ## 功能特性
 
 ### 多数据源浏览
-聚合 Gamer520、ACG港湾 等站点的 PC 游戏资源，顶部可切换数据源，支持分页浏览与关键词搜索。
+聚合 Gamer520 等站点的 PC 游戏资源，顶部可切换数据源，支持分页浏览与关键词搜索。
 
 ![游戏库](docs/games.jpg)
 
@@ -28,22 +28,6 @@
 
 ### 绿色版（免安装，推荐）
 下载 / 构建后进入 `Gamer520Client-win32-x64` 目录，双击 `Gamer520Client.exe` 即可运行。数据保存在 exe 同级的 `data\` 文件夹，随目录移动即可保留游戏库。
-
-### 从源码运行
-```powershell
-npm install
-npm start
-```
-
-### 构建绿色版
-```powershell
-npm run portable
-# 产物：dist/Gamer520Client-win32-x64/
-```
-
-## 技术栈
-- Electron + 原生 HTML/CSS/JS（深色黑金主题，无边框自绘标题栏）
-- node-html-parser（页面解析）
 
 ## 免责声明
 本项目仅用于学习与技术交流，所有游戏资源均来自第三方公开网站，本客户端不存储、不提供任何游戏本体文件。请支持正版游戏。
